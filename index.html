@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Loja de Produtos Importados</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+		<div class="logo">
+			<h1> Jh Importados</h1>
+		</div>
+		<div class="cart">
+			<button id="cart-button">Carrinho (0)</button>
+		</div>
+	</header>
+
+	<main>
+		<section class="products">
+			<h2>Produtos Importados</h2>
+			<div class="product" id="product-1">
+				<img src="https://via.placeholder.com/150" alt="Produto 1">
+				<h3>Produto 1</h3>
+				<p>R$ 19,99</p>
+				<button class="add-to-cart">Adicionar ao Carrinho</button>
+			</div>
+
+			<div class="product" id="product-2">
+				<img src="https://via.placeholder.com/150" alt="Produto 2">
+				<h3>Produto 2</h3>
+				<p>R$ 29,00</p>
+				<button class="add-to-cart">Adicionar ao Carrinho</button>
+			</div>
+
+			<div class="product" id="product-3">
+				<img src="https://via.placeholder.com/150" alt="Produto 3">
+				<h3>Produto 3</h3>
+				<p>R$ 49,00</p>
+				<button class="add-to-cart">Adicionar ao Carrinho</button>
+			</div>
+		</section>
+
+		<section class="cart-popup" id="cart-popup">
+			<h2>Carrinho de Compras</h2>
+			<ul id="cart-items">
+				<!-- Items will appear here -->
+			</ul>
+			<button id="checkout-button">Finalizar Compra</button>
+		</section>
+	</main>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
